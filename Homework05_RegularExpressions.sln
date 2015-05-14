@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_SeriesOfLetters", "01_Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ReplaceATag", "02_ReplaceATag\02_ReplaceATag.csproj", "{1E4A37E7-35EA-4FF6-AC49-4B88FD40AC15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ExtractEmails", "03_ExtractEmails\03_ExtractEmails.csproj", "{D63E1D60-72DB-4B65-9379-84F27E8E76BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_SentenceExtractor", "04_SentenceExtractor\04_SentenceExtractor.csproj", "{C5F56CA6-7F13-491F-AAFD-06399CCFCA56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1E4A37E7-35EA-4FF6-AC49-4B88FD40AC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E4A37E7-35EA-4FF6-AC49-4B88FD40AC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E4A37E7-35EA-4FF6-AC49-4B88FD40AC15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63E1D60-72DB-4B65-9379-84F27E8E76BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63E1D60-72DB-4B65-9379-84F27E8E76BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63E1D60-72DB-4B65-9379-84F27E8E76BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63E1D60-72DB-4B65-9379-84F27E8E76BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F56CA6-7F13-491F-AAFD-06399CCFCA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F56CA6-7F13-491F-AAFD-06399CCFCA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F56CA6-7F13-491F-AAFD-06399CCFCA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F56CA6-7F13-491F-AAFD-06399CCFCA56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
