@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
+//https://judge.softuni.bg/Contests/Practice/Index/84#3
 
 class QuerryMess
 {
@@ -20,6 +21,7 @@ class QuerryMess
             //replace encoded spaces with literal ones:
             string spaceEnc = @"(\+|%20)";
             res = Regex.Replace(pairStr, spaceEnc, " ");
+            res = Regex.Replace(res, @"\s+", " ");
             string[] keyValueAttr = res.Split('=');
             string key = keyValueAttr[0].Trim();
             string value = keyValueAttr[1].Trim();
